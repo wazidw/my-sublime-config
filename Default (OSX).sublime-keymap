@@ -1,0 +1,13 @@
+[
+    //自己增加的快捷键
+    { "keys": ["super+shift+r"], "command": "reveal_in_side_bar"}, //在侧边栏中定位正在编辑的文件
+    { "keys": ["super+shift+k"], "command": "expand_tabs"}, //把TAB制表全换成4个空格
+    { "keys": ["super+k", "super+p"], "command": "toggle_minimap" }, //显示和隐藏右侧预览
+    { "keys": ["super+shift+h"], "command": "open_file", "args": {"file": "/etc/hosts"} }, //快速打开hosts文件
+    { "keys": ["super+."], "command": "open_file", "args": {"file": "${packages}/User/Default (OSX).sublime-keymap"} }, //打开属性设置
+    {"keys": ["super+shift+t"], "command": "add_date_time_stamp" }, //时间
+    {"keys": ["super+shift+d"], "command": "add_my_time_stamp" },
+    {"keys": ["ctrl+shift+d"], "command": "add_date_stamp" },
+    {"keys": ["ctrl+shift+t"], "command": "add_time_stamp" },
+    { "keys": ["f1"], "command": "goto_documentation" } //查询手册
+]
